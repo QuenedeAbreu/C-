@@ -1,0 +1,69 @@
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\bin\Debug\net7.0-windows\Locadora.exe
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\bin\Debug\net7.0-windows\Locadora.deps.json
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\bin\Debug\net7.0-windows\Locadora.runtimeconfig.json
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\bin\Debug\net7.0-windows\Locadora.dll
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\bin\Debug\net7.0-windows\Locadora.pdb
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\obj\Debug\net7.0-windows\Locadora.csproj.AssemblyReference.cache
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\obj\Debug\net7.0-windows\Locadora.csproj.GenerateResource.cache
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\obj\Debug\net7.0-windows\Locadora.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\obj\Debug\net7.0-windows\Locadora.AssemblyInfoInputs.cache
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\obj\Debug\net7.0-windows\Locadora.AssemblyInfo.cs
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\obj\Debug\net7.0-windows\Locadora.csproj.CoreCompileInputs.cache
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\obj\Debug\net7.0-windows\Locadora.dll
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\obj\Debug\net7.0-windows\refint\Locadora.dll
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\obj\Debug\net7.0-windows\Locadora.pdb
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\obj\Debug\net7.0-windows\Locadora.genruntimeconfig.cache
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\obj\Debug\net7.0-windows\ref\Locadora.dll
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\obj\Debug\net7.0-windows\Locadora.Properties.Resources.resources
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\obj\Debug\net7.0-windows\Locadora.FormLocadora.resources
+C:\Users\quenede.abreu\Pictures\Imagens\Locadora\obj\Debug\net7.0-windows\Locadora.FormUsuario.resources
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\bin\Debug\net7.0-windows\Locadora.exe
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\bin\Debug\net7.0-windows\Locadora.deps.json
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\bin\Debug\net7.0-windows\Locadora.runtimeconfig.json
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\bin\Debug\net7.0-windows\Locadora.dll
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\bin\Debug\net7.0-windows\Locadora.pdb
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\obj\Debug\net7.0-windows\Locadora.csproj.AssemblyReference.cache
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\obj\Debug\net7.0-windows\Locadora.FormLocadora.resources
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\obj\Debug\net7.0-windows\Locadora.FormUsuario.resources
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\obj\Debug\net7.0-windows\Locadora.Properties.Resources.resources
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\obj\Debug\net7.0-windows\Locadora.csproj.GenerateResource.cache
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\obj\Debug\net7.0-windows\Locadora.GeneratedMSBuildEditorConfig.editorconfig
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\obj\Debug\net7.0-windows\Locadora.AssemblyInfoInputs.cache
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\obj\Debug\net7.0-windows\Locadora.AssemblyInfo.cs
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\obj\Debug\net7.0-windows\Locadora.csproj.CoreCompileInputs.cache
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\obj\Debug\net7.0-windows\Locadora.dll
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\obj\Debug\net7.0-windows\refint\Locadora.dll
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\obj\Debug\net7.0-windows\Locadora.pdb
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\obj\Debug\net7.0-windows\Locadora.genruntimeconfig.cache
+D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\obj\Debug\net7.0-windows\ref\Locadora.dll
+F:\C-\Locadora\bin\Debug\net7.0-windows\Locadora.exe
+F:\C-\Locadora\bin\Debug\net7.0-windows\Locadora.deps.json
+F:\C-\Locadora\bin\Debug\net7.0-windows\Locadora.runtimeconfig.json
+F:\C-\Locadora\bin\Debug\net7.0-windows\Locadora.dll
+F:\C-\Locadora\bin\Debug\net7.0-windows\Locadora.pdb
+F:\C-\Locadora\bin\Debug\net7.0-windows\Google.Protobuf.dll
+F:\C-\Locadora\bin\Debug\net7.0-windows\K4os.Compression.LZ4.dll
+F:\C-\Locadora\bin\Debug\net7.0-windows\K4os.Compression.LZ4.Streams.dll
+F:\C-\Locadora\bin\Debug\net7.0-windows\K4os.Hash.xxHash.dll
+F:\C-\Locadora\bin\Debug\net7.0-windows\MySql.Data.dll
+F:\C-\Locadora\bin\Debug\net7.0-windows\BouncyCastle.Crypto.dll
+F:\C-\Locadora\bin\Debug\net7.0-windows\runtimes\win-x64\native\comerr64.dll
+F:\C-\Locadora\bin\Debug\net7.0-windows\runtimes\win-x64\native\gssapi64.dll
+F:\C-\Locadora\bin\Debug\net7.0-windows\runtimes\win-x64\native\k5sprt64.dll
+F:\C-\Locadora\bin\Debug\net7.0-windows\runtimes\win-x64\native\krb5_64.dll
+F:\C-\Locadora\bin\Debug\net7.0-windows\runtimes\win-x64\native\krbcc64.dll
+F:\C-\Locadora\obj\Debug\net7.0-windows\Locadora.csproj.AssemblyReference.cache
+F:\C-\Locadora\obj\Debug\net7.0-windows\Locadora.FormLocadora.resources
+F:\C-\Locadora\obj\Debug\net7.0-windows\Locadora.FormUsuario.resources
+F:\C-\Locadora\obj\Debug\net7.0-windows\Locadora.Properties.Resources.resources
+F:\C-\Locadora\obj\Debug\net7.0-windows\Locadora.csproj.GenerateResource.cache
+F:\C-\Locadora\obj\Debug\net7.0-windows\Locadora.GeneratedMSBuildEditorConfig.editorconfig
+F:\C-\Locadora\obj\Debug\net7.0-windows\Locadora.AssemblyInfoInputs.cache
+F:\C-\Locadora\obj\Debug\net7.0-windows\Locadora.AssemblyInfo.cs
+F:\C-\Locadora\obj\Debug\net7.0-windows\Locadora.csproj.CoreCompileInputs.cache
+F:\C-\Locadora\obj\Debug\net7.0-windows\Locadora.csproj.CopyComplete
+F:\C-\Locadora\obj\Debug\net7.0-windows\Locadora.dll
+F:\C-\Locadora\obj\Debug\net7.0-windows\refint\Locadora.dll
+F:\C-\Locadora\obj\Debug\net7.0-windows\Locadora.pdb
+F:\C-\Locadora\obj\Debug\net7.0-windows\Locadora.genruntimeconfig.cache
+F:\C-\Locadora\obj\Debug\net7.0-windows\ref\Locadora.dll

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Locadora</id>
+    <version>1.0.0</version>
+    <authors>Locadora</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net7.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net7.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\bin\Debug\net7.0-windows\Locadora.runtimeconfig.json" target="lib\net7.0-windows7.0\Locadora.runtimeconfig.json" />
+    <file src="D:\Quenede Abreu\Desktop\Curso_Eng_Software\C#\C-\Locadora\bin\Debug\net7.0-windows\Locadora.dll" target="lib\net7.0-windows7.0\Locadora.dll" />
+  </files>
+</package>
