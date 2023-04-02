@@ -1,7 +1,6 @@
 ﻿using Locadora.Entity;
 using Microsoft.VisualBasic.ApplicationServices;
 using MySql.Data.MySqlClient;
-using Projeto;
 using System;
 using System.Collections.Generic;
 using System.Linq;

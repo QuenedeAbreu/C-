@@ -40,8 +40,7 @@ namespace Locadora
         {
             listUsuarios.Items.Clear();
             List<Usuario> users = userDal.Listar();
-            userDal.Listar();
-            foreach (var item in userDal.Listar())
+            foreach (var item in users)
             {
                 listUsuarios.Items.Add(new ListViewItem(new string[] { Convert.ToString(item.Id), item.Nome, item.DataNascimento, item.Email, item.Cpf }));
             }
@@ -123,6 +122,7 @@ namespace Locadora
                     userDal.Editar(user);
                     popularListViewUsuario();
                     limparText();
+                    btnCancelar.Enabled = false;
                 }
                 catch
                 {

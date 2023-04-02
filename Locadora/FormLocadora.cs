@@ -17,7 +17,8 @@ namespace Locadora
 
         private void carrosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Aqui vai abrir os Carros!");
+            FormCarro formCarro = new FormCarro();
+            formCarro.Show();
         }
 
         private void aluguelToolStripMenuItem_Click(object sender, EventArgs e)

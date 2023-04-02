@@ -67,3 +67,4 @@ F:\C-\Locadora\obj\Debug\net7.0-windows\refint\Locadora.dll
 F:\C-\Locadora\obj\Debug\net7.0-windows\Locadora.pdb
 F:\C-\Locadora\obj\Debug\net7.0-windows\Locadora.genruntimeconfig.cache
 F:\C-\Locadora\obj\Debug\net7.0-windows\ref\Locadora.dll
+F:\C-\Locadora\obj\Debug\net7.0-windows\Locadora.FormCarro.resources
