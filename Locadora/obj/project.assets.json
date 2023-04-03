@@ -1515,11 +1515,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\C-\\Locadora\\Locadora.csproj",
+      "projectUniqueName": "E:\\C-\\Locadora\\Locadora.csproj",
       "projectName": "Locadora",
-      "projectPath": "F:\\C-\\Locadora\\Locadora.csproj",
+      "projectPath": "E:\\C-\\Locadora\\Locadora.csproj",
       "packagesPath": "C:\\Users\\Quenede Abreu\\.nuget\\packages\\",
-      "outputPath": "F:\\C-\\Locadora\\obj\\",
+      "outputPath": "E:\\C-\\Locadora\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Quenede Abreu\\AppData\\Roaming\\NuGet\\NuGet.Config",

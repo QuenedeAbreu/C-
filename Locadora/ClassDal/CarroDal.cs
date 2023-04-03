@@ -15,7 +15,38 @@ namespace Locadora.ClassDal
         MySqlCommand cmd = new MySqlCommand();
         public List<Carro> Listar()
         {
-            cmd.CommandText = "SELECT * FROM carro";
+            cmd.CommandText = "SELECT * FROM carro ORDER BY status_carro";
+            List<Carro> result = new();
+            try
+            {
+                cmd.Connection = conexao.conectar();
+                MySqlDataReader reader = cmd.ExecuteReader();
+                while (reader.Read())
+                {
+                    Carro carro = new();
+                    carro.Id = reader.IsDBNull(0) ? 000 : Convert.ToInt32(reader.GetInt64(0));
+                    carro.Marca = reader.IsDBNull(1) ? "Sem Marca" : reader.GetString(1);
+                    carro.Modelo = reader.IsDBNull(2) ? "Sem Modelo" : reader.GetString(2);
+                    carro.Placa = reader.IsDBNull(3) ? "Sem Placa" : reader.GetString(3);
+                    carro.Cor = reader.IsDBNull(4) ? "Sem Cor" : reader.GetString(4);
+                    carro.Disponibilidade = reader.IsDBNull(5) ? 000 : Convert.ToInt32(reader.GetInt64(5));
+                    result.Add(carro);
+
+                }
+                conexao.Closed();
+                return result;
+            }
+            catch (Exception ex)
+            {
+                conexao.Closed();
+                MessageBox.Show("Erro ao listar os resultados : " + ex);
+                return result;
+            }
+
+        }
+        public List<Carro> ListarOne(int id)
+        {
+            cmd.CommandText = "SELECT * FROM carro where id_carro = '"+id+"'";
             List<Carro> result = new();
             try
             {
@@ -52,7 +83,7 @@ namespace Locadora.ClassDal
                 cmd.Connection = conexao.conectar();
                 cmd.ExecuteNonQuery();
                 conexao.Closed();
-                MessageBox.Show("Carro Inserido com sucesso!");
+               
             }
             catch (Exception ex)
             {
@@ -93,6 +124,24 @@ namespace Locadora.ClassDal
             {
                 conexao.Closed();
                 MessageBox.Show("Erro ao deletadar este carro : " + ex);
+            }
+        }
+
+        public void TrocarStatusCarro(int newStatus, int IdCarro)
+        {
+            cmd.CommandText = "UPDATE carro set status_carro ='" + newStatus + "' where id_carro = '" + IdCarro + "'";
+            try
+            {
+                cmd.Connection = conexao.conectar();
+                cmd.ExecuteNonQuery();
+                conexao.Closed();
+               
+
+            }
+            catch (Exception ex)
+            {
+                conexao.Closed();
+                MessageBox.Show("Erro ao alugar o carro : " + ex);
             }
         }
     }

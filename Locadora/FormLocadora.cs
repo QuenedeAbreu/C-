@@ -23,7 +23,8 @@ namespace Locadora
 
         private void aluguelToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Aqui vai abrir os Alugueis");
+            FormLocacao formLocacao = new();
+            formLocacao.Show();
         }
     }
 }

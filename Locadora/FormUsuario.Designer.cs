@@ -101,9 +101,9 @@
             label2.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(353, 63);
             label2.Name = "label2";
-            label2.Size = new Size(32, 15);
+            label2.Size = new Size(99, 15);
             label2.TabIndex = 5;
-            label2.Text = "Data";
+            label2.Text = "Data Nascimento";
             // 
             // txtEmail
             // 

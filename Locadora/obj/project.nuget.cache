@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1EqhCYpjpk3Zu5UmNEgHsTrelXc/IelKocSjIZBdMe3t1YU/oKuZE2Z0jQ5qBuo3gp7mG+2UlwOoGhyCNGwf3w==",
+  "dgSpecHash": "NzRvEuQ9z8+zdSt6/jOwgm13UJ8+joWK9MjOJQtYdtBgWqw6mMfzsq4FEQWp4npoL8jpG4uZTKNSLPdC9JjSug==",
   "success": true,
-  "projectFilePath": "F:\\C-\\Locadora\\Locadora.csproj",
+  "projectFilePath": "E:\\C-\\Locadora\\Locadora.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Quenede Abreu\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\Quenede Abreu\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",

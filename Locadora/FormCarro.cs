@@ -83,6 +83,7 @@ namespace Locadora
                     carroDal.Cadastrar(carro);
                     popularListViewCarro();
                     limparText();
+                    MessageBox.Show("Carro cadatrado com sucesso!");
                 }
                 catch
                 {
@@ -116,6 +117,7 @@ namespace Locadora
                     popularListViewCarro();
                     limparText();
                     btnCancelar.Enabled = false;
+                    MessageBox.Show("Carro Editado com sucesso!");
                 }
                 catch
                 {
@@ -162,6 +164,7 @@ namespace Locadora
                 var id = listCarros.SelectedItems[0].SubItems[0].Text;
                 carroDal.Excluir(Convert.ToInt32(id));
                 popularListViewCarro();
+                MessageBox.Show("Carro excluido com sucesso!");
             }
         }
     }

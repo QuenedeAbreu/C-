@@ -24,7 +24,7 @@ namespace Locadora.ClassDal
                 cmd.Connection = conexao.conectar();
                 cmd.ExecuteNonQuery();
                 conexao.Closed();
-                MessageBox.Show("Usuario Inserido com sucesso!");
+          
 
             }
             catch (Exception ex)
@@ -38,6 +38,42 @@ namespace Locadora.ClassDal
         public List<Usuario> Listar()
         {
             cmd.CommandText = "SELECT * FROM usuario";
+            List<Usuario> result = new();
+            try
+            {
+                cmd.Connection = conexao.conectar();
+                MySqlDataReader reader = cmd.ExecuteReader();
+
+
+                while (reader.Read())
+                {
+                    Usuario user = new();
+                    user.Id = reader.IsDBNull(0) ? 000 : Convert.ToInt32(reader.GetInt64(0));
+                    user.Nome = reader.IsDBNull(1) ? "Sem nome" : reader.GetString(1);
+                    user.DataNascimento = reader.IsDBNull(2) ? "Sem Data de Nascimento" : reader.GetString(2);
+                    user.Email = reader.IsDBNull(3) ? "Sem Email" : reader.GetString(3);
+                    user.Cpf = reader.IsDBNull(4) ? "Sem Cpf" : reader.GetString(4);
+                    result.Add(user);
+
+                }
+
+                conexao.Closed();
+
+                return result;
+            }
+            catch (Exception ex)
+            {
+                conexao.Closed();
+                MessageBox.Show("Erro ao listar os resultados : " + ex);
+
+                return result;
+            }
+
+        }
+
+        public List<Usuario> ListarOne(int id)
+        {
+            cmd.CommandText = "SELECT * FROM usuario where id_usuario = '"+id+"'";
             List<Usuario> result = new();
             try
             {

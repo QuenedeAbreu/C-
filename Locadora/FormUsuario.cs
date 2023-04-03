@@ -18,7 +18,7 @@ namespace Locadora
     public partial class FormUsuario : Form
     {
         UserDal userDal = new();
-        
+
         public FormUsuario()
         {
             InitializeComponent();
@@ -26,7 +26,7 @@ namespace Locadora
 
         private void label1_Click(object sender, EventArgs e)
         {
-           
+
         }
 
         private void FormUsuario_Load(object sender, EventArgs e)
@@ -90,6 +90,7 @@ namespace Locadora
                     userDal.Cadastrar(usuario);
                     popularListViewUsuario();
                     limparText();
+                    MessageBox.Show("Usuário cadatrado com sucesso!");
                 }
                 catch
                 {
@@ -123,6 +124,7 @@ namespace Locadora
                     popularListViewUsuario();
                     limparText();
                     btnCancelar.Enabled = false;
+                    MessageBox.Show("Usuário editado com sucesso!");
                 }
                 catch
                 {
@@ -138,12 +140,13 @@ namespace Locadora
         private void Excluir_Click(object sender, EventArgs e)
         {
             string nome = listUsuarios.SelectedItems[0].SubItems[1].Text;
-            DialogResult result = MessageBox.Show("Deseja realmente excluir o usuario : " + nome, "Atenção",MessageBoxButtons.OKCancel,MessageBoxIcon.Warning);
+            DialogResult result = MessageBox.Show("Deseja realmente excluir o usuario : " + nome, "Atenção", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
             if (result == System.Windows.Forms.DialogResult.OK)
             {
                 var id = listUsuarios.SelectedItems[0].SubItems[0].Text;
                 userDal.Excluir(Convert.ToInt32(id));
                 popularListViewUsuario();
+                MessageBox.Show("Usuário excluido com sucesso!");
             }
         }
 
